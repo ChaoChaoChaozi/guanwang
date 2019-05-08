@@ -1,5 +1,5 @@
 # guanwang
-JAVA版本的CMS公司官网
+CMS公司官网模板JAVA版本的
 应急找的代码
 进行了二次开发
 前端界面很乱，各种table和div嵌套
