@@ -1,0 +1,38 @@
+/* fixsid */
+
+.qqkefu{position: fixed;top:60%;_position: absolute;_top: expression(eval(document.documentElement.scrollTop + 365));z-index: 110;right:0;width:45px;}
+.qqkefu ul li{width: 45px;height:45px;margin-bottom:1px;float:right;line-height:45px;font-size:14px;cursor:pointer;position:relative;text-indent: 10px;}
+.qqkefu ul li a{color:#fff;display: block;overflow: hidden;height: 45px;}
+.qqkefu ul li.qq_cza{overflow:hidden}
+.qqkefu ul li:hover{background:#2a95e5;}
+.qqkefu ul li.top{background:url(../images/k1.png) no-repeat center #1184da;position:relative;width:45px;height: 45px;cursor:pointer;}
+.qqkefu ul li.top span{position:absolute;display:block;left:0;top:-5px;height:5px;width:45px;}
+.qqkefu ul li.top:hover{background:url(../images/k1.png) no-repeat center #2a95e5;}
+.qqkefu ul li b{width:45px;height:45px;display:block;overflow:hidden;float:right;}
+.qqkefu ul li span{font-size: 14px;font-weight: bold;color: #FFF;}
+.qqkefu ul li b.a{background:url(../images/k2.png) no-repeat center #1184da;}
+.qqkefu ul li b.b{background:url(../images/k3.png) no-repeat center #1184da;}
+.qqkefu ul li b.f{background:url(../images/k4.png) no-repeat center #1184da;}
+.qqkefu ul li b.c{background:url(../images/k5.png) no-repeat center #1184da;}
+.qqkefu ul li:hover b.a{background:url(../images/k2.png) no-repeat center center #2a95e5;}
+.qqkefu ul li:hover b.b{background:url(../images/k3.png) no-repeat center center #2a95e5;}
+.qqkefu ul li:hover b.f{background:url(../images/k4.png) no-repeat center center #2a95e5;}
+.qqkefu ul li:hover b.c{background:url(../images/k5.png) no-repeat center center #2a95e5;}
+.qqkefu ul li.qq_czb{text-indent: 0;}
+.qqkefu ul li.qq_czae{ line-height:15px !important}
+.erweima{position: absolute;width:111px;height:150px;top: -120px;left: -111px;float: right;cursor: default !important;display:none;background:url(../images/code_1.jpg) no-repeat;}
+.erweima p{margin-top:20px;margin-left:10px;}
+.erweima img{width:90px;height:90px;}
+.qqkefu li .erweima p a{display:block;font-size:14px;color:#333;margin-top:-8px;margin-left:30px;}    
+#sorllMenu{width:640px; overflow: hidden;position: relative;}
+#sorllMenu li{float: left;width: 220px;margin: 0;margin-top: -20px;position: relative;}
+.producttitle{overflow: hidden; height: 30px;}
+
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, img, div, dl, dt, dd, input {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+li {
+    list-style: none;
+}

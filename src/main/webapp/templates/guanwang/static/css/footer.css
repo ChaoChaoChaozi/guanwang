@@ -1,0 +1,17 @@
+/*footer样式*/
+#footer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 992px) {
+    #footer>div{
+        width: 992px;
+        padding: 0 auto;
+        margin: 0 auto;
+    }
+}
+.my_footer_font1{
+	color: red;
+	font-size: 10px;
+}

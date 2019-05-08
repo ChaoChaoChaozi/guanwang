@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>查看会员</title>
+[#include "/WEB-INF/admin/include/common.html"]
+</head>
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>查看会员</h5>
+            </div>
+           <form id="inputForm" action="updateView" method="post">
+               <input type="hidden" name="id" value="${member.id}"/>
+                <div class="ibox-content">
+                    <div class="form-horizontal clearfix">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">账号：</label>
+                            <div class="col-sm-3">
+                                ${member.username}
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">手机号码：</label>
+                            <div class="col-sm-3">
+                                ${member.phone}
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">邮箱：</label>
+                            <div class="col-sm-3">
+                                ${member.email}
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">公司名称：</label>
+                            <div class="col-sm-3">
+                                ${member.companyName}
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">采购原料种类：</label>
+                            <div class="col-sm-3">
+                                ${member.cgylzl}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer col-sm-3 col-sm-offset-2">
+                    <button type="button" class="btn btn-w-m btn-default" onclick="history.back(); return false;">取消</button>
+                </div>
+             </form>
+        </div>
+    </div>
+</body>
+</html>

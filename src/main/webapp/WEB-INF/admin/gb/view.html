@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>留言查看</title>
+[#include "/WEB-INF/admin/include/common.html"]
+</head>
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>留言查看</h5>
+            </div>
+            <input type="hidden" name="id" value="${gb.id}">
+            <div class="ibox-content">
+                <div class="form-horizontal clearfix">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">姓名：</label>
+                        <div class="col-sm-3">
+                            ${gb.name}
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">手机号码：</label>
+                        <div class="col-sm-3">
+                            ${gb.phone}
+                        </div>
+                    </div>
+                       <div class="form-group">
+                           <label class="col-sm-3 control-label">IP：</label>
+                           <div class="col-sm-3">
+                               ${gb.ip}
+                           </div>
+                       </div>
+                       <div class="form-group">
+                           <label class="col-sm-3 control-label">内容：</label>
+                           <div class="col-sm-3">
+                               ${gb.content}
+                           </div>
+                       </div>
+                </div>
+            </div>
+            <div class="modal-footer col-sm-3 col-sm-offset-2">
+                <button type="button" class="btn btn-w-m btn-default" onclick="history.back(); return false;">返回</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+$().ready(function() {
+
+
+});
+</script>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>系统设置</title>
+[#include "/WEB-INF/admin/include/common.html"]
+</head>
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>系统设置</h5>
+            </div>
+           <form id="inputForm" action="update" method="post">
+                <div class="ibox-content">
+                    <div class="form-horizontal clearfix">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">网站名称：</label>
+                            <div class="col-sm-3">
+                                <input placeholder="网站名称" class="form-control" type="text" name="siteName" value="${config.siteName}">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">网站网址：</label>
+                            <div class="col-sm-3">
+                                <input placeholder="网站网址" class="form-control" type="text" name="siteUrl" value="${config.siteUrl}">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">logo：</label>
+                            <div class="col-sm-3">
+                                <input placeholder="logo" type="text" class="form-control" name="logo" value="${config.logo}"/>
+                            </div>
+                            <div class="col-sm-3">
+                                <a href="javascript:;" class="btn btn-primary filePicker">选择文件</a>
+                                <a href="${config.logo}" target="_blank">查看</a>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">标题：</label>
+                            <div class="col-sm-3">
+                                <input placeholder="标题" class="form-control" type="text" name="title" value="${config.title}">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">关键词：</label>
+                            <div class="col-sm-3">
+                                <input placeholder="关键词" class="form-control" type="text" name="keywords" value="${config.keywords}">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">描述：</label>
+                            <div class="col-sm-3">
+                                <input placeholder="描述" class="form-control" type="text" name="description" value="${config.description}">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">主题：</label>
+                            <div class="col-sm-3">
+                                <select class="form-control" name="theme">
+                                    [#list themes as theme]
+                                        <option value="${theme}" [#if theme==config.theme]selected[/#if]>${theme}</option> 
+                                    [/#list]
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer col-sm-3 col-sm-offset-2">
+                    <button type="submit" class="btn btn-w-m btn-primary">确定</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+$().ready(function() {
+    $.each($(".filePicker"),function(index,item){
+        $(item).uploader();
+    });
+});
+</script>
+
+

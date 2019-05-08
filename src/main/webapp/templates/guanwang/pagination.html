@@ -1,0 +1,17 @@
+    [#if hasPrevious]
+     <div class="pagePrev"><a href="${currentCategory.getListPath(previousPageNumber)}"><span>上一页</span></a></div>
+     [#else]
+    <div class="pagePrev"><span>上一页</span></div>
+     [/#if]
+     [#list segment as segmentPageNumber]
+        [#if segmentPageNumber != pageNumber]
+            <div class="pageNo"><a href="${currentCategory.getListPath(segmentPageNumber)}"><span>${segmentPageNumber}</span></a></div>
+        [#else]
+            <div class="pageNo J_pageSelect fk-pageSelect"><span>${segmentPageNumber}</span></div>
+        [/#if]
+    [/#list]
+    [#if hasNext]
+    <div class="pageNext"><a href="${currentCategory.getListPath(nextPageNumber)}"><span>下一页 </span></a></div>
+    [#else]
+    <div class="pageNext"><span>下一页 </span></div>
+    [/#if]

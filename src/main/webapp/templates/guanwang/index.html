@@ -1,0 +1,829 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" class="g_html">
+<head>
+    <title>首页</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Cache-Control" content="no-transform"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="format-detection" content="telephone=no,email=no,address=no"/>
+    <meta name="renderer" content="webkit"/>
+    <link type="text/css" href="${base}/templates/${config.theme}/static/css/bootstrap.css" rel="stylesheet"/>
+    <link type="text/css" href="${base}/templates/${config.theme}/static/css/footer.css" rel="stylesheet"/>
+    <link type="text/css" href="${base}/templates/${config.theme}/static/css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" src="${base}/templates/${config.theme}/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="${base}/templates/${config.theme}/static/js/popper.min.js"></script>
+    <script type="text/javascript" src="${base}/templates/${config.theme}/static/js/bootstrap.min.js"></script>
+
+
+    <link type="text/css" href="${base}/templates/${config.theme}/static/css/base2.min.css" rel="stylesheet"/>
+    <link type="text/css" href="${base}/templates/${config.theme}/static/css/fkTheme.min.css" rel="stylesheet"/>
+    <link type="text/css" href="${base}/templates/${config.theme}/static/css/jzcusstyle.css" rel="stylesheet"/>
+    <link type="text/css" href="${base}/templates/${config.theme}/static/css/newSearchBoxStyle.min.css"
+          rel="stylesheet"/>
+    <link type="text/css" href="${base}/templates/${config.theme}/static/css/poshytipAndmCustomScrollbar.min.css"
+          rel="stylesheet"/>
+    <link type='text/css' href='${base}/templates/${config.theme}/static/css/fontsIco.min.css' rel='stylesheet'/>
+    <link type='text/css' href='${base}/templates/${config.theme}/static/swiper/swiper.min.css' rel='stylesheet'/>
+    <script type="text/javascript" src="${base}/templates/${config.theme}/static/swiper/swiper.min.js"></script>
+    <script type="text/javascript" src="${base}/templates/${config.theme}/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="${base}/templates/${config.theme}/static/js/jqueryajax.js"></script>
+    <script type="text/javascript" src="${base}/templates/${config.theme}/static/js/common.js"></script>
+    <script src="${base}/templates/${config.theme}/static/sweetalert/sweetalert2.all.min.js"></script>
+    <script src="${base}/templates/${config.theme}/static/sweetalert/promise.min.js"></script>
+    <link href="${base}/templates/${config.theme}/static/sweetalert/sweetalert2.scss" rel="stylesheet">
+    <link href="${base}/templates/${config.theme}/static/css/style.css" rel="stylesheet">
+
+
+
+</head>
+<body class="g_body g_locale2052   " style="background-color:white">
+<div id="g_main" class='g_main g_col2  ' style="background-color:white">
+    <div id="web" class="g_web ">
+        <!-- 头部开始 -->
+        [#include "/templates/${config.theme}/header.html" /]
+        <!-- 头部结束 -->
+
+        <!-- banner 开始 -->
+
+        <table class="webBannerTable J_webBannerTable" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="center" class="fk-moduleZoneWrap">
+
+
+                    <div id="webBanner" class="webBanner">
+
+                        <!-- Swiper -->
+                        <div class="swiper-container" style="height: 400px">
+                            <div class="swiper-wrapper">
+                                <!--<div class="swiper-slide"><img alt="" src="${base}/upload/banner4.jpg"-->
+                                <!--style="height:500px;width:100%"></div>-->
+                                <div class="swiper-slide"><img alt="" src="${base}/upload/banner.jpg"
+                                                               style="height:450px;width:100%"></div>
+                                <div class="swiper-slide"><img alt="" src="${base}/upload/banner2.jpg"
+                                                               style="height:450px;width:100%"></div>
+                                <div class="swiper-slide"><img alt="" src="${base}/upload/banner3.jpg"
+                                                               style="height:450px;width:100%"></div>
+
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <!-- banner结束 -->
+        <div class="row" style="height: 50px">
+            <div class="col-md-4"></div>
+            <div class="col-md-4" style="border-bottom:5px solid darkgray;text-align: center;line-height:48px">
+                <div class="col-md-4"></div>
+                <div class="col-md-4" style="border-bottom:5px solid darkblue;margin: 0px;position: relative;bottom: -5px;">
+                    <span style="color:#020202;font-size: 24px;">关于我们</span>
+                </div>
+                <div class="col-md-4"></div>
+
+            </div>
+            <div class="col-md-4"></div>
+
+        </div>
+
+        <table class="absMiddleTable" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="center">
+                    <div id="absForms" class="forms sideForms absForms">
+
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+
+        <div id="fullmeasureTopForms"
+             class="fullmeasureContainer forms fk-fullmeasureForms fullmeasureForms fullmeasureTopForms"
+             style='display:none'>
+
+            <wbr style='display:none;'/>
+        </div>
+
+        <table id="webContainerTable" class="webContainerTable" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="center">
+                    <div id="webContainer" class="webContainer">
+                        <div id="container" class="container">
+                            <table class="containerTop" cellpadding='0' cellspacing='0'>
+                                <tr valign='top'>
+                                    <td class="left"></td>
+                                    <td class="center"></td>
+                                    <td class="right"></td>
+                                </tr>
+                            </table>
+
+                            <table class="containerMiddle" cellpadding='0' cellspacing='0'>
+                                <tr valign='top'>
+                                    <td id="containerMiddleLeft" class="containerMiddleLeft">
+
+
+                                    </td>
+
+                                    <td class="containerMiddleCenter">
+                                        <div id="containerMiddleCenterTop" class="containerMiddleCenterTop">
+
+                                        </div>
+
+                                        <div id="containerForms" class="containerForms">
+                                            <div id="topForms" class="column forms mainForms topForms"
+                                                 style='display:none'>
+
+                                            </div>
+                                            <div id="bottomForms" class="column forms mainForms bottomForms"
+                                                 style='display:none'>
+
+                                            </div>
+
+                                            <div id="containerPlaceholder" class="containerPlaceholder"></div>
+
+                                        </div>
+
+                                        <div id="containerMiddleCenterBottom" class="containerMiddleCenterBottom">
+                                        </div>
+
+                                    </td>
+
+                                    <td id="containerMiddleRight" class="containerMiddleRight"></td>
+                                </tr>
+                            </table>
+
+                            <table class="containerBottom" cellpadding='0' cellspacing='0'>
+                                <tr valign='top'>
+                                    <td class="left"></td>
+                                    <td class="center"></td>
+                                    <td class="right"></td>
+                                </tr>
+                            </table>
+                        </div>
+
+
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <div id="fullmeasureBottomForms"
+             class="fullmeasureContainer forms fk-fullmeasureForms fullmeasureForms fullmeasureBottomForms"
+        >
+            <div id='module341' _indexClass='formIndex1' _moduleType='1' _modulestyle='80' _moduleid='341'
+                 class='form form341 formIndex1 formStyle80 fk-formFullmeasure ' title='' _sys='0' _banId=''
+                 style='height: 300px'
+                 _side='0' _inTab='0' _inMulMCol='0' _inFullmeasure='0' _inpack='0' _inpopupzone='0' _autoHeight='0'
+                 _global='false' _independent='false'>
+                <div class='fillContentRelative'
+                     style='position:absolute; z-index:-1; height:100%; width:100%;display:none;'></div>
+                <div style='position:relative;'
+                     class='fullmeasureOuterContentPage fullmeasureOuterContentPage1 J_fullmeasurePageShow' page='1'>
+                    <div class='fullmeasureOuterContentBg fullmeasureOuterContentBg341 fullmeasureStyle12'
+                         style="height:240px"></div>
+                    <div class='fullmeasureOuterContent fullmeasureOuterContent341' style="height:240px">
+                        <div class='fullmeasureContent fullmeasureContent341' id='fullmeasureContent341_1'
+                             moduleId='341'>
+                            <!--<div class='fullmeasureContentBg fullmeasureContentBg341'></div>-->
+
+                            <div id='module349' _indexClass='' _moduleType='1' _modulestyle='35' _moduleid='349'
+                                 class='form form349 formStyle35 layoutModule  formStyle35_2  fk-formCol ' title=''
+                                 _sys='0' _banId='' style='' _side='0' _inTab='0' _inMulMCol='0' _inFullmeasure='341'
+                                 _inpack='0' _inpopupzone='0' _autoHeight='1' _global='false' _independent='false'>
+                                <table class='formTop formTop349' cellpadding='0' cellspacing='0'>
+                                    <tr>
+                                        <td class='left'></td>
+                                        <td class='center'></td>
+                                        <td class='right'></td>
+                                    </tr>
+                                </table>
+                                <table class=' formMiddle formMiddle349' style='' cellpadding='0' cellspacing='0'>
+                                    <tr>
+                                        <td class='formMiddleLeft formMiddleLeft349'></td>
+                                        <td class='formMiddleCenter formMiddleCenter349  f-colFormMiddleCenter '
+                                            valign='top'>
+                                            <div class='formMiddleContent formMiddleContent349 multiColFormMiddleContent f-colFormMiddleContent  fk-formContentOtherPadding'
+                                                 tabStyle='0'>
+                                                <div class='mulMColContent' id='mulMColContent349'>
+                                                    <table width="100%" border="0" cellspacing="0"
+                                                           class="mulMColContentTable" cellpadding="0">
+                                                        <tbody>
+
+                                                        <tr>
+                                                            <td class=" mulColLayout mulColPadding"
+                                                                style="width:718px;">
+                                                                <div id="mulMCol349_cid_1" class="mulMColList">
+                                                                    <div id='module350' _indexClass='' _moduleType='1'
+                                                                         _modulestyle='29' _moduleid='350'
+                                                                         class='form form350 formStyle29 formInMulMCol  layoutModule  fk-formTabY '
+                                                                         title='' _sys='0' _banId='' style='' _side='0'
+                                                                         _inTab='0' _inMulMCol='349' _inFullmeasure='0'
+                                                                         _inpack='0' _inpopupzone='0' _autoHeight='1'
+                                                                         _global='false' _independent='false'>
+                                                                        <table class='formTop formTop350'
+                                                                               cellpadding='0' cellspacing='0'>
+                                                                            <tr>
+                                                                                <td class='left'></td>
+                                                                                <td class='center'></td>
+                                                                                <td class='right'></td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <table class=' formMiddle formMiddle350'
+                                                                               style='' cellpadding='0' cellspacing='0'>
+                                                                            <tr>
+                                                                                <td class='formMiddleLeft formMiddleLeft350'></td>
+                                                                                <td class='formMiddleCenter formMiddleCenter350 '
+                                                                                    valign='top'>
+                                                                                    <div class='formMiddleContent formMiddleContent350 formTabMiddleContent fk-formContentOtherPadding'
+                                                                                         tabStyle='0'>
+                                                                                        <div class='formTab formTabDirectionY'
+                                                                                             id='formTab350'>
+
+                                                                                            <div class='formTabContent formTabContent350 column'
+                                                                                                 id='formTabContent350'>
+                                                                                                <div class='formTabCntId formTabCntIdHover'
+                                                                                                     styleId=7
+                                                                                                     id='formTabCntId351'
+                                                                                                     show='true'>
+                                                                                                    <div id='module351'
+                                                                                                         _indexClass=''
+                                                                                                         _moduleType='1'
+                                                                                                         _modulestyle='7'
+                                                                                                         _moduleid='351'
+                                                                                                         class='form form351 formStyle7 formInTab '
+                                                                                                         title=''
+                                                                                                         _sys='0'
+                                                                                                         _banId=''
+                                                                                                         style=''
+                                                                                                         _side='0'
+                                                                                                         _inTab='350'
+                                                                                                         _inMulMCol='0'
+                                                                                                         _inFullmeasure='0'
+                                                                                                         _inpack='0'
+                                                                                                         _inpopupzone='0'
+                                                                                                         _autoHeight='1'
+                                                                                                         _global='false'
+                                                                                                         _independent='false'>
+                                                                                                        <table class='formTop formTop351'
+                                                                                                               cellpadding='0'
+                                                                                                               cellspacing='0'>
+                                                                                                            <tr>
+                                                                                                                <td class='left'></td>
+                                                                                                                <td class='center'></td>
+                                                                                                                <td class='right'></td>
+                                                                                                            </tr>
+                                                                                                        </table>
+                                                                                                        <table class='formBanner formBanner351'
+                                                                                                               cellpadding='0'
+                                                                                                               cellspacing='0'
+                                                                                                               style=''>
+                                                                                                            <tr>
+                                                                                                                <td class='left left351'></td>
+                                                                                                                <td class='center center351'
+                                                                                                                    valign='top'>
+                                                                                                                    <table cellpadding='0'
+                                                                                                                           cellspacing='0'
+                                                                                                                           class='formBannerTitle formBannerTitle351'>
+                                                                                                                        <tr>
+                                                                                                                            <td class='titleLeft titleLeft351'
+                                                                                                                                valign='top'>
+                                                                                                                            </td>
+                                                                                                                            <td class='titleCenter titleCenter351'
+                                                                                                                                valign='top'>
+                                                                                                                                <div class='titleText titleText351'>
+                                                                                                                                    <span class='bannerNormalTitle fk_mainTitle mainTitle mainTitle351'>企业新闻</span>
+                                                                                                                                </div>
+                                                                                                                            </td>
+                                                                                                                            <td class='titleRight titleRight351'
+                                                                                                                                valign='top'>
+                                                                                                                            </td>
+                                                                                                                        </tr>
+                                                                                                                    </table>
+                                                                                                                    <div class='formBannerOther formBannerOther351'>
+                                                                                                                        <div class='formBannerMore formBannerMore351'
+                                                                                                                             style=''>
+<span style='_display:inline-block;_position:relative;'>
+<a hidefocus='true' class='bannerMoreInnerA' href='javascript:;'><span class='bannerMoreInnerSpan'>更多&#x3e;&#x3e;</span></a>
+</span>
+                                                                                                                        </div>
+                                                                                                                        <div class='formBannerBtn formBannerBtn351'>
+<span style='_display:inline-block;_position:relative;'><a hidefocus='true' href='javascript:;'
+                                                           onclick='Site.closeAd("module351");return false;'
+                                                           class='g_close'><span class='bannerMoreInnerSpan'
+                                                                                 style='_display:none;'>&nbsp;</span></a>
+</span></div>
+                                                                                                                        &nbsp;
+                                                                                                                    </div>
+                                                                                                                </td>
+                                                                                                                <td class='right right351'></td>
+                                                                                                            </tr>
+                                                                                                        </table>
+                                                                                                        <table class=' formMiddle formMiddle351'
+                                                                                                               style=''
+                                                                                                               cellpadding='0'
+                                                                                                               cellspacing='0'>
+
+                                                                                                            <tr>
+                                                                                                                <td class='formMiddleLeft formMiddleLeft351'></td>
+                                                                                                                <td class='formMiddleCenter formMiddleCenter351 '
+                                                                                                                    valign='top'>
+                                                                                                                    <div class='formMiddleContent formMiddleContent351 fk-formContentOtherPadding'
+                                                                                                                         tabStyle='0'>
+                                                                                                                        <div>
+                                                                                                                            <div class='newsList J_newsList  '
+                                                                                                                                 id='newsList351'
+                                                                                                                                 _showSetting=0
+                                                                                                                                 newsListType='1'
+                                                                                                                                 scroll='0'>
+
+                                                                                                                                [@content_list
+                                                                                                                                categoryId=1
+                                                                                                                                count=3
+                                                                                                                                orderBy="createDate
+                                                                                                                                desc"]
+                                                                                                                                [#list
+                                                                                                                                contents
+                                                                                                                                as
+                                                                                                                                content]
+                                                                                                                                [#if
+                                                                                                                                content_index=0]
+                                                                                                                                <div topClassName='top1'
+                                                                                                                                     topSwitch='on'
+                                                                                                                                     class='J_newsListLine line noHover   fk-newsLineHeight  newsListLine2'
+                                                                                                                                     style='height:auto;'>
+                                                                                                                                    <table id='lineBody13'
+                                                                                                                                           class='J_lineBody lineBody'
+                                                                                                                                           cellpadding='0'
+                                                                                                                                           cellspacing='0'>
+                                                                                                                                        <tr id='module351tr13'>
+                                                                                                                                            <td class='J_newsTitle newsTitle mixNewsTitle'
+                                                                                                                                                valign='top'>
+                                                                                                                                                <div class='J_articlePhotoBox articlePhotoBox '
+                                                                                                                                                     newid='13'
+                                                                                                                                                     newsFlag='0'>
+                                                                                                                                                    <a class='J_articlePicHref articlePicLink2'
+                                                                                                                                                       href='${base}${content.path}'
+                                                                                                                                                       target='_blank'
+                                                                                                                                                       style='width:162px;height:117px;'>
+                                                                                                                                                        <img class='J_newsListPic newsPic newsListNewPic'
+                                                                                                                                                             alt='文章附图'
+                                                                                                                                                             title=''
+                                                                                                                                                             src='${content.image}'
+                                                                                                                                                             style='width:152px;height:107px;'
+                                                                                                                                                             onerror="this.onerror=null;this.src='${base}/upload/ljwm_3.png'"/></a>
+                                                                                                                                                </div>
+                                                                                                                                                <div class='mixNewsStyleTitleContainer'>
+                                                                                                                                                    <div class='J_newsListTopFlag  newsListTopFlag2'>
+                                                                                                                                                        <a class='no-mixNewsStyleTitleTip'
+                                                                                                                                                           href='javascript:;'
+                                                                                                                                                           target='_blank'></a>
+                                                                                                                                                    </div>
+                                                                                                                                                    <a hidefocus='true'
+                                                                                                                                                       href="${base}${content.path}"
+                                                                                                                                                       target=_blank
+                                                                                                                                                       class='mixNewsStyleDate fk-newsListDate'>${content.createDate?string("yyyy-MM-dd")}</a>
+                                                                                                                                                    <a hidefocus='true'
+                                                                                                                                                       href="${base}${content.path}"
+                                                                                                                                                       target=_blank
+                                                                                                                                                       title="${content.title}"
+                                                                                                                                                       class='J_mixNewsStyleTitle fk-newsListTitle mixNewsStyleTitle '
+                                                                                                                                                       mix='1'>${abbreviate(content.title,
+                                                                                                                                                        18,
+                                                                                                                                                        "...")}</a>
+                                                                                                                                                </div>
+                                                                                                                                                <a href='${base}${content.path}'
+                                                                                                                                                   target='_blank'
+                                                                                                                                                   class='mixNewsStyleSummary fk-newsListSummary '>${abbreviate(content.title,
+                                                                                                                                                    57,
+                                                                                                                                                    "...")}</a>
+                                                                                                                                            </td>
+                                                                                                                                        </tr>
+                                                                                                                                    </table>
+                                                                                                                                </div>
+                                                                                                                                [#else]
+                                                                                                                                <div topClassName='top1'
+                                                                                                                                     topSwitch='on'
+                                                                                                                                     class='J_newsListLine line g_item   fk-newsLineHeight   '>
+                                                                                                                                    <table id='lineBody12'
+                                                                                                                                           class='J_lineBody lineBody'
+                                                                                                                                           cellpadding='0'
+                                                                                                                                           cellspacing='0'>
+                                                                                                                                        <tr id='module351tr12'>
+                                                                                                                                            <td class='contentLineIcon '></td>
+                                                                                                                                            <td class='J_newsTitle newsTitle'
+                                                                                                                                                valign='top'>
+                                                                                                                                                <div class='J_newsListTopFlag '></div>
+                                                                                                                                                <a class='fk-newsListTitle'
+                                                                                                                                                   hidefocus='true'
+                                                                                                                                                   href="${base}${content.path}"
+                                                                                                                                                   target=_blank
+                                                                                                                                                   title="${content.title}">${content.title}</a>
+                                                                                                                                            </td>
+                                                                                                                                            <td class='J_newsCalendar newsCalendar'
+                                                                                                                                                valign='top'>
+                                                                                                                                                <a class='fk-newsListDate'
+                                                                                                                                                   hidefocus='true'
+                                                                                                                                                   href="${base}${content.path}"
+                                                                                                                                                   target=_blank>${content.createDate?string("yyyy-MM-dd")}</a>
+                                                                                                                                            </td>
+                                                                                                                                        </tr>
+                                                                                                                                    </table>
+                                                                                                                                </div>
+                                                                                                                                [/#if]
+                                                                                                                                <div class='J_separatorLine separatorLine g_separator [#if (content_index+1)==contents?size]newsListSeparatorLine[/#if]'></div>
+                                                                                                                                [/#list]
+                                                                                                                                [/@content_list]
+
+                                                                                                                                <!-- <div topClassName='top1' topSwitch='on' newsId='12' newsName='医疗IT科技公司Medspire企业品牌标志LOGO设计' class='J_newsListLine line g_item   fk-newsLineHeight   ' ><table id='lineBody12' class='J_lineBody lineBody'  cellpadding='0' cellspacing='0'><tr id='module351tr12'><td class='contentLineIcon '></td>
+                                                                                                                                <td class='J_newsTitle newsTitle' valign='top'>
+                                                                                                                                <div class='J_newsListTopFlag ' ></div>
+                                                                                                                                <a class='fk-newsListTitle' hidefocus='true' href="javascript:;" target=_blank title="医疗IT科技公司Medspire企业品牌标志LOGO设计">医疗IT科技公司Medspire企业品牌标志LOGO设计</a>
+                                                                                                                                </td>
+                                                                                                                                <td class='J_newsCalendar newsCalendar' valign='top'>
+                                                                                                                                <a class='fk-newsListDate' hidefocus='true' href="javascript:;" target=_blank >2016-12-26</a>
+                                                                                                                                </td>
+                                                                                                                                </tr>
+                                                                                                                                </table>
+                                                                                                                                </div>
+                                                                                                                                <div class='J_separatorLine separatorLine g_separator '></div>
+
+
+                                                                                                                                <div topClassName='top1' topSwitch='on' newsId='11' newsName='白酒酒吧白搭品牌标志LOGO设计和品牌形象设计' class='J_newsListLine line g_item   fk-newsLineHeight   ' ><table id='lineBody11' class='J_lineBody lineBody'  cellpadding='0' cellspacing='0'><tr id='module351tr11'><td class='contentLineIcon '></td>
+                                                                                                                                <td class='J_newsTitle newsTitle' valign='top'>
+                                                                                                                                <div class='J_newsListTopFlag ' ></div>
+                                                                                                                                <a class='fk-newsListTitle' hidefocus='true' href="javascript:;" target=_blank title="白酒酒吧白搭品牌标志LOGO设计和品牌形象设计">白酒酒吧白搭品牌标志LOGO设计和品牌形象设计</a>
+                                                                                                                                </td>
+                                                                                                                                <td class='J_newsCalendar newsCalendar' valign='top'>
+                                                                                                                                <a class='fk-newsListDate' hidefocus='true' href="javascript:;" target=_blank >2016-12-26</a>
+                                                                                                                                </td>
+                                                                                                                                </tr>
+                                                                                                                                </table>
+                                                                                                                                </div>
+                                                                                                                                <div class='J_separatorLine separatorLine g_separator  newsListSeparatorLine '></div> -->
+
+
+                                                                                                                                <div class='clearfloat'></div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </td>
+                                                                                                                <td class='formMiddleRight formMiddleRight351'></td>
+                                                                                                            </tr>
+                                                                                                        </table>
+                                                                                                        <table class='formBottom formBottom351'
+                                                                                                               cellpadding='0'
+                                                                                                               cellspacing='0'>
+                                                                                                            <tr>
+                                                                                                                <td class='left left351'></td>
+                                                                                                                <td class='center center351'></td>
+                                                                                                                <td class='right right351'></td>
+                                                                                                            </tr>
+                                                                                                        </table>
+                                                                                                        <div class='clearfloat clearfloat351'></div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class='formTabCntId'
+                                                                                                     styleId=7
+                                                                                                     id='formTabCntId352'>
+                                                                                                    <div id='module352'
+                                                                                                         _indexClass=''
+                                                                                                         _moduleType='1'
+                                                                                                         _modulestyle='7'
+                                                                                                         _moduleid='352'
+                                                                                                         class='form form352 formStyle7 formInTab '
+                                                                                                         title=''
+                                                                                                         _sys='0'
+                                                                                                         _banId=''
+                                                                                                         style=''
+                                                                                                         _side='0'
+                                                                                                         _inTab='350'
+                                                                                                         _inMulMCol='0'
+                                                                                                         _inFullmeasure='0'
+                                                                                                         _inpack='0'
+                                                                                                         _inpopupzone='0'
+                                                                                                         _autoHeight='1'
+                                                                                                         _global='false'
+                                                                                                         _independent='false'>
+                                                                                                        <table class='formTop formTop352'
+                                                                                                               cellpadding='0'
+                                                                                                               cellspacing='0'>
+                                                                                                            <tr>
+                                                                                                                <td class='left'></td>
+                                                                                                                <td class='center'></td>
+                                                                                                                <td class='right'></td>
+                                                                                                            </tr>
+                                                                                                        </table>
+                                                                                                        <table class='formBanner formBanner352'
+                                                                                                               cellpadding='0'
+                                                                                                               cellspacing='0'
+                                                                                                               style=''>
+                                                                                                            <tr>
+                                                                                                                <td class='left left352'></td>
+                                                                                                                <td class='center center352'
+                                                                                                                    valign='top'>
+                                                                                                                    <table cellpadding='0'
+                                                                                                                           cellspacing='0'
+                                                                                                                           class='formBannerTitle formBannerTitle352'>
+                                                                                                                        <tr>
+                                                                                                                            <td class='titleLeft titleLeft352'
+                                                                                                                                valign='top'>
+                                                                                                                            </td>
+                                                                                                                            <!-- <td class='titleCenter titleCenter352' valign='top'>
+                                                                                                                            <div class='titleText titleText352'><span class='bannerNormalTitle fk_mainTitle mainTitle mainTitle352'>专题报道</span></div>
+                                                                                                                            </td> -->
+                                                                                                                            <td class='titleRight titleRight352'
+                                                                                                                                valign='top'>
+                                                                                                                            </td>
+                                                                                                                        </tr>
+                                                                                                                    </table>
+                                                                                                                    <div class='formBannerOther formBannerOther352'>
+                                                                                                                        <div class='formBannerMore formBannerMore352'
+                                                                                                                             style=''>
+<span style='_display:inline-block;_position:relative;'>
+<a hidefocus='true' class='bannerMoreInnerA' href='nr.jsp'><span class='bannerMoreInnerSpan'>更多&#x3e;&#x3e;</span></a>
+</span>
+                                                                                                                        </div>
+                                                                                                                        <div class='formBannerBtn formBannerBtn352'>
+<span style='_display:inline-block;_position:relative;'><a hidefocus='true' href='javascript:;'
+                                                           onclick='Site.closeAd("module352");return false;'
+                                                           class='g_close'><span class='bannerMoreInnerSpan'
+                                                                                 style='_display:none;'>&nbsp;</span></a>
+</span></div>
+                                                                                                                        &nbsp;
+                                                                                                                    </div>
+                                                                                                                </td>
+                                                                                                                <td class='right right352'></td>
+                                                                                                            </tr>
+                                                                                                        </table>
+                                                                                                        <table class=' formMiddle formMiddle352'
+                                                                                                               style=''
+                                                                                                               cellpadding='0'
+                                                                                                               cellspacing='0'>
+                                                                                                            <tr>
+                                                                                                                <td class='formMiddleLeft formMiddleLeft352'></td>
+                                                                                                                <td class='formMiddleCenter formMiddleCenter352 '
+                                                                                                                    valign='top'>
+                                                                                                                    <div class='formMiddleContent formMiddleContent352 fk-formContentOtherPadding'
+                                                                                                                         tabStyle='0'>
+                                                                                                                        <div>
+                                                                                                                            <div class='newsList J_newsList pic-mixNewsList '
+                                                                                                                                 id='newsList352'
+                                                                                                                                 _showSetting=1
+                                                                                                                                 newsListType='2'
+                                                                                                                                 scroll='0'>
+                                                                                                                                <div class='clearfloat'></div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </td>
+                                                                                                                <td class='formMiddleRight formMiddleRight352'></td>
+                                                                                                            </tr>
+                                                                                                        </table>
+                                                                                                        <table class='formBottom formBottom352'
+                                                                                                               cellpadding='0'
+                                                                                                               cellspacing='0'>
+                                                                                                            <tr>
+                                                                                                                <td class='left left352'></td>
+                                                                                                                <td class='center center352'></td>
+                                                                                                                <td class='right right352'></td>
+                                                                                                            </tr>
+                                                                                                        </table>
+                                                                                                        <div class='clearfloat clearfloat352'></div>
+                                                                                                    </div>
+                                                                                                </div>
+
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td class='formMiddleRight formMiddleRight350'></td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <table class='formBottom formBottom350'
+                                                                               cellpadding='0' cellspacing='0'>
+                                                                            <tr>
+                                                                                <td class='left left350'></td>
+                                                                                <td class='center center350'></td>
+                                                                                <td class='right right350'></td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <div class='clearfloat clearfloat350'></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mulModuleColStyleLine"
+                                                                     style="right:9px;"></div>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class='formMiddleRight formMiddleRight349'></td>
+                                    </tr>
+                                </table>
+                                <table class='formBottom formBottom349' cellpadding='0' cellspacing='0'>
+                                    <tr>
+                                        <td class='left left349'></td>
+                                        <td class='center center349'></td>
+                                        <td class='right right349'></td>
+                                    </tr>
+                                </table>
+                                <div class='clearfloat clearfloat349'></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='clearfloat clearfloat341'></div>
+                </div>
+            </div>
+
+            <div id='module357' _indexClass='formIndex2' _moduleType='1' _modulestyle='80' _moduleid='357'
+                 class='form form357 formIndex2 formStyle80 fk-formFullmeasure ' title='' _sys='0' _banId=''
+                 style='height: 800px;' _side='0' _inTab='0' _inMulMCol='0' _inFullmeasure='0' _inpack='0'
+                 _inpopupzone='0' _autoHeight='0' _global='false' _independent='false'>
+                <div class='fillContentRelative'
+                     style='position:absolute; z-index:-1; height:100%; width:100%;display:none;'></div>
+                <div style='position:relative;'
+                     class='fullmeasureOuterContentPage fullmeasureOuterContentPage1 J_fullmeasurePageShow' page='1'>
+                    <div class='fullmeasureOuterContentBg fullmeasureOuterContentBg357 fullmeasureStyle12'></div>
+                    <div class='fullmeasureOuterContent fullmeasureOuterContent357'>
+                        <div class='fullmeasureContent fullmeasureContent357' id='fullmeasureContent357_1'
+                             moduleId='357'>
+                            <div style="" class='fullmeasureContentBg fullmeasureContentBg357'></div>
+                            <div id='module358' _indexClass='' _moduleType='1' _modulestyle='3' _moduleid='358'
+                                 class='form form358 formStyle3' title='' _sys='0' _banId='' style='width: 1300px;'
+                                 _side='0' _inTab='0' _inMulMCol='0' _inFullmeasure='357' _inpack='0' _inpopupzone='0'
+                                 _autoHeight='1' _global='false' _independent='false'>
+                                <table class='formTop formTop358' cellpadding='0' cellspacing='0'>
+                                    <tr>
+                                        <td class='left'></td>
+                                        <td class='center'></td>
+                                        <td class='right'></td>
+                                    </tr>
+                                </table>
+                                <table class=' formMiddle formMiddle358' style='height: 800px' cellpadding='0'
+                                       cellspacing='0'>
+                                    <tr>
+                                        <td class='formMiddleLeft formMiddleLeft358'></td>
+                                        <td class='formMiddleCenter formMiddleCenter358 ' valign='top'>
+                                            <div class='formMiddleContent formMiddleContent358 fk-formContentOtherPadding'
+                                                 tabStyle='0'>
+                                                <div class='productMarqueeForms' newMarqueeToward=1 _borderType='0'
+                                                     _bgType='0' _borderWidth='1'>
+
+                                                    <p class="hzhb_nr_hzhb"
+                                                       style="font-size: 25px;text-align: center;padding-top: 0px;line-height: 48px;margin: auto;">
+                                                        经典案例<br>
+                                                        <span> 多种优势，让你的产品更加具有竞争性</span></p>
+
+                                                    <div class='demo' style='margin-top: 35px;height: 800px'>
+                                                        <div class='demo0' id='demo0358' style='height: 800px'>
+
+                                                            [#list
+                                                            ["anli1.jpg","anli2.jpg","anli3.jpg","anli4.jpg","anli5.jpg","anli6.jpg","anli7.jpg","anli8.jpg","anli9.jpg","anli10.jpg","anli11.jpg","anli12.jpg"
+                                                            <!--,"anli13.jpg","anli14.jpg"--> ]
+                                                            as hzhb]
+                                                            <div style="margin-top: 20px;margin-right: 10px;"
+                                                                 topClassName='productListTopIcon' topSwitch='on'
+                                                                 class='productMarqueeForm fk-productListForm  '
+                                                                 faiWidthOr='280' faiHeightOr='180' faiWidth='280'
+                                                                 faiHeight='180'>
+                                                                <div id='m358marqueeProduct1'
+                                                                     class='topFlagImgDiv imgDiv  '
+                                                                     style='width:290px;height:174px;'
+                                                                     style='position:relative;'>
+                                                                    <table cellpadding='0' cellspacing='0'>
+                                                                        <tr>
+                                                                            <td style='overflow:hidden;'
+                                                                                valign='middle'>
+                                                                                <a hidefocus='true' href='javascript:;'>
+                                                                                    <img src='${base}/upload/${hzhb}'
+                                                                                         alt='名片设计' title='' width="290"
+                                                                                         height="174"/>
+                                                                                </a></td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <div class='J_marqueePropListInfo fk_marqueePropListInfo'>
+                                                                    <div class='propDiv productName productName_C  first_ProductName    '
+                                                                         style=' display:none; '><a hidefocus='true'
+                                                                                                    class='fk-productName'
+                                                                                                    title='名片设计'
+                                                                                                    href='javascript:;'
+                                                                                                    onclick="jzUtils.run({'name':'productSlide.init', 'prompt':'true'}, '?id=1&_pp=0_358');">名片设计</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            [/#list]
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class='formMiddleRight formMiddleRight358'></td>
+                                    </tr>
+                                </table>
+                                <table class='formBottom formBottom358' cellpadding='0' cellspacing='0'>
+                                    <tr>
+                                        <td class='left left358'></td>
+                                        <td class='center center358'></td>
+                                        <td class='right right358'></td>
+                                    </tr>
+                                </table>
+                                <!--<div class='clearfloat clearfloat358'></div>-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class='clearfloat clearfloat357'></div>-->
+                </div>
+            </div>
+
+
+            <wbr style='display:none;'/>
+        </div>
+
+        <table class="absBottomTable" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="center">
+                    <div id="absBottomForms" class="forms sideForms absForms">
+                        <div style="position:absolute;"></div><!-- for ie6 -->
+
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--&lt;!&ndash; 底部开始 &ndash;&gt;-->
+        <div style="">[#include "/templates/${config.theme}/footer.html" /]</div>
+        <!--&lt;!&ndash; 底部结束 &ndash;&gt;-->
+
+
+        <div class="clearfloat"></div>
+    </div>
+
+
+</div>
+
+
+<div class="floatLeftTop manageTranTop" style='0'>
+    <div id="floatLeftTopForms" class="forms sideForms floatForms">
+
+    </div>
+</div>
+<div class="floatRightTop manageTranTop" style='0'>
+    <div id="floatRightTopForms" class="forms sideForms floatForms">
+
+    </div>
+</div>
+<div class="floatLeftBottom">
+    <div id="floatLeftBottomForms" class="forms sideForms floatForms">
+
+    </div>
+</div>
+<div class="floatRightBottom">
+    <div id="floatRightBottomForms" class="forms sideForms floatForms">
+
+    </div>
+</div>
+<div id="popupLevel" class="popupLevel">
+    <div id="popupLevelWrap" class='popupLevelWrap'>
+        <div id="popupLevelEditToolArea" class="popupLevelEditToolArea">
+            <div id="popupLevelEditPanel" class="popupLevelEditPanel"></div>
+            <div id="popupLevelEditTool" class="popupLevelEditTool"></div>
+        </div>
+        <div id="popupLevelForms" class="forms sideForms popupLevelForms"></div>
+    </div>
+</div>
+
+<!-- 样式面板 -->
+<div class="fk-funPanelStyleArea" id="fk-funPanelStyleArea">
+    <div class="fk-funPanelStyle fk-funPanel" id="fk-funPanelStyle">
+        <transition name="component-fade" mode="out-in">
+            <keep-alive>
+                <template v-if="panelOpen">
+                    <fk-funpanelstyle :curpanel="curPanel" :panelopen="panelOpen" :panelleft="panelLeft"
+                                      @closepanelclick="closePanelClick"
+                                      @switchpaneltype="switchPanelType"></fk-funpanelstyle>
+                </template>
+            </keep-alive>
+        </transition>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
